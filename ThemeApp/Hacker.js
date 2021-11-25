@@ -1,0 +1,3 @@
+var theme=document.createElement("STYLE");
+theme.innerText="@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');html {background: black; color: #00FF00;font-family: 'Roboto Mono', monospace;}a:link {  color: #3F3FFF;  background-color: transparent;  text-decoration: none;}a:visited {  color: #7F00FF;  background-color: transparent;  text-decoration: none;}a:hover {  color: #5F5FFF;  background-color: transparent;  text-decoration: underline;}a:active {  color: #0000FF;  background-color: transparent;  text-decoration: underline;}";
+document.head.appendChild(theme);
