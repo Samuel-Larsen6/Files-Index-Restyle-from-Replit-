@@ -2,7 +2,6 @@
 html {
 	background: black; 
 	color: #00FF00;
-	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -30,7 +29,6 @@ a:active {
   text-decoration: underline;
 }
 
-}
 h1 {
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 10px;

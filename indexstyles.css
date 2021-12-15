@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-	text-align: center;
 	font-size: 500%;
+	margin: 10px;
 }
 
-h2 {
-	text-align: center;
+div {
+	display: contents;
+}
+
+div.close {
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 10;
+	display: block;
 }
 
 iframe {
@@ -20,4 +28,82 @@ iframe {
 	background: gray;
 	overflow: hidden;
 	border-radius: 5px;
+}
+
+#close {
+  color: #3f3f3f;
+  background-color: transparent;
+  text-decoration: none;
+	margin: 0;
+	text-align: right;
+	display: inline-block;
+}
+
+a#close:link {
+  color: #3f3f3f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a#close:visited {
+  color: #3f3f3f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a#close:hover {
+  color: #2f2f2f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a#close:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 5px solid #3F3F3F;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #7F7F7F;
+  color: white;
+}
+
+button:disabled {
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
+  color: white;
+	cursor: not-allowed;
+}
+div.overlay#jsbuttons {
+	display: block;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: white;
+	margin: 10px;
+	position: sticky;
+	left: 10px;
+	top: 10px;
+}
+
+button.jsbutton {
+	width: 160px;
 }

@@ -2,21 +2,47 @@
 	<head>
 		<title>Files Index Restyle index</title>
 		<link href="/indexstyles.css" rel="stylesheet" type="text/css"/>
-		<div style="background-color: gray;border: 5px solid red">You know it'd be preaty dumb if I'm restyling the files index and my index was preaty bad, (feel free to help.)</div>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	</head>
 	<body>
-		<script src="/ThemeApp/application.js"></script>
+		<script src="/ScriptHome.js"></script>
+		<div id="notification" class="close" style="background-color:gray;border:5px solid red;">
+			You know it'd be preaty dumb if I'm restyling the files index <br>and my index was preaty bad, (feel free to <a href="https://replit.com/@SamuelLarsen/Files-Index-Restyle">help</a>.)
+			<p style="text-align: right;" id="close"><a id="close" href="javascript:">X</a></p>
+		</div>
+		<div class="overlay" id="jsbuttons">
+			<button class="jsbutton" id="button1">Change theme</button>
+			<button class="jsbutton" id="button2">Change CSS URL</button>
+			<button class="jsbutton" id="button3" disabled>Enable dev stuff</button>
+		</div>
 		<h1>Files Index Restyle</h1>
-		<h2>Themes</h2>
-		<a href="Dark">Dark theme</a><br>
-		<a href="Hacker">Hacker theme</a><br>
-		<a href="Light">Light theme</a><br>
-		<a href="Pink">Pink theme</a><br>
-		<a href="RGB">RGB theme</a>
-		<h2>Apps</h2>
-		<a href="ThemeApp">Themes app</a>
-		<h2>Files</h2>
-		<a href="RGB.html">RGB background</a><br>
-		<a href="/AppInstall.html">App Install Instructions</a>
+		<div id="Themes" style="display:contents;">
+			<h2>Themes</h2>
+			<a href="Dark">Dark theme</a><br>
+			<a href="Hacker">Hacker theme</a><br>
+			<a href="Light">Light theme</a><br>
+			<a href="Pink">Pink theme</a><br>
+			<a href="RGB">RGB theme</a>
+			<div class="dev" style="display:none;"></div>
+		</div>
+		<div id="Apps" style="display:contents;">
+			<h2>Apps</h2>
+			<a href="ThemeApp">Themes app</a><br>
+			<a href="CSSloader">CSSloader</a>
+			<div class="dev" style="display:none;">
+				<h3>(In development)</h3>
+				<a href="FilesApp">Files app</a>
+			</div>
+		</div>
+		<div id="Files" style="display:contents;">
+			<h2>Files</h2>
+			<a href="RGB.html">RGB background</a><br>
+			<a href="/AppInstall.html">App Install Instructions</a><br>
+			<a href="Microsoft.html">Animated Microsoft logo</a><br>
+			<a href="experiment.html">Experiment</a><br>
+			<div class="dev" style="display:none;">
+				<a href="enableDev.html">Enable dev mode</a>
+			</div>
+		</div>
 	</body>
 </html>

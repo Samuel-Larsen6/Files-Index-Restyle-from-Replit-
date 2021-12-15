@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Brown.</title>
+		<style>
+			@keyframes Brown {
+				0%   {background: #FF0000;}
+				50%  {background: #00FFFF;}
+				100% {background: #FF0000;}
+			}
+			@keyframes Brown2 {
+				0%   {background: #00FFFF;}
+				50%  {background: #FF0000;}
+				100% {background: #00FFFF;}
+			}
+			html {
+				animation: Brown 0.1s infinite;
+				cursor: none;
+			}
+			div.Brown {
+  			text-align: center;
+  			align-self: center;
+				height: 400px;
+				width: 400px;
+				animation: Brown2 0.1s infinite;
+				margin: 300px 600px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Brown"></div>
+	</body>
+</html>

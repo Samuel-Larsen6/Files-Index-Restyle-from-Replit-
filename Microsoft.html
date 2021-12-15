@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>macrosoft</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<style> 
+			div {
+  			width: 400px;
+  			height: 400px;
+  			background: red;
+  			position: relative;
+  			top: 0px;
+			  left: 0px;
+			}
+
+			div.a {
+  			animation: mymove1 5s infinite;
+			}
+
+			div.b {
+  			animation: mymove2 5s infinite;
+			}
+
+			div.c {
+  			animation: mymove3 5s infinite;
+			}
+
+			div.d {
+  			animation: mymove4 5s infinite;
+			}
+
+			@keyframes mymove1 {
+  			0%   {top: 0px; left: 0px; background: red;}
+  			25%  {top: 0px; left: 440px; background: green;}
+  			50%  {top: 440px; left: 440px; background: yellow;}
+  			75%  {top: 440px; left: 0px; background: blue;}
+  			100% {top: 0px; left: 0px; background: red;}
+			}
+
+			@keyframes mymove2 {
+  			0%   {top: -400px; left: 440px; background: green;}
+  			25%  {top: 40px; left: 440px; background: yellow;}
+  			50%  {top: 40px; left: 0px; background: blue;}
+  			75%  {top: -400px; left: 0px; background: red;}
+  			100% {top: -400px; left: 440px; background: green;}
+			}
+
+			@keyframes mymove3 {
+  			0%   {top: -360px; left: 440px; background: yellow;}
+  			25%  {top: -360px; left: 0px; background: blue;}
+  			50%  {top: -800px; left: 0px; background: red;}
+  			75%  {top: -800px; left: 440px; background: green;}
+  			100% {top: -360px; left: 440px; background: yellow;}
+			}
+
+			@keyframes mymove4 {
+  			0%   {top: -760px; left: 0px; background: blue;}
+  			25%  {top: -1200px; left: 0px; background: red;}
+  			50%  {top: -1200px; left: 440px; background: green;}
+  			75%  {top: -760px; left: 440px; background: yellow;}
+  			100% {top: -760px; left: 0px; background: blue;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a"></div>
+		<div class="b"></div>
+		<div class="c"></div>
+		<div class="d"></div>
+	</body>
+</html>

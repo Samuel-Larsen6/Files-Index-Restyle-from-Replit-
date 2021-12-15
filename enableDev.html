@@ -1,19 +1,18 @@
 <html>
 	<head>
-		<title>Please don't look anywhere</title>
+		<title>Enable dev mode</title>
 		<link href="/indexstyles.css" rel="stylesheet" type="text/css"/>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-		<script src="/ScriptHello.js"></script>
+		<script src="/Script.js"></script>
 	</head>
 	<body>
-		<div id="devBack" style="display:none;">
-			<a href="/index.html">Back</a>
-		</div>
 		<div class="overlay" id="jsbuttons">
 			<button style="width:160px;" class="jsbutton" id="button1">Change theme</button>
 			<button style="width:160px;" class="jsbutton" id="button2">Change CSS URL</button>
-			<button style="width:160px;" class="jsbutton" id="button3" disabled=true>Enable dev stuff</button>
+			<button style="width:160px;" class="jsbutton" id="button3">Enable dev stuff</button>
 		</div>
-		<h1>Please don't look anywhere</h1>
+		<div class="dev" style="display:none;">
+			Dev mode enabled
+		</div>
 	</body>
 </html>
